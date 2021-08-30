@@ -1,8 +1,12 @@
-import React from "react";
+import React from 'react';
+import Board from './component/Board';
 
-export default () => (
-  <>
-    <h1>Welcome to React Parcel Micro App!</h1>
-    <p>Why Jatta??</p>
-  </>
-);
+const App = () => {
+  return (
+    <div>
+      <h1>TIC TAC TOE</h1>
+      <Board />
+    </div>
+  );
+};
+export default App;
